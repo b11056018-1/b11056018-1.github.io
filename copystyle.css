@@ -6,10 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: black;
-}
-
 nav {
     display: flex;
     min-height: 100px;
@@ -56,20 +52,9 @@ ul li a:hover:before {
     filter: drop-shadow(0 0 25px var(--clr));
 }
 
-h1 {
-    color: white;
-    align-items: center;
-    justify-content: center;
-}
-
-footer {
-    background-color: darkgrey;
-}
-
 .top01 {
+    background-color: black;
     width: 100%;
-    background-color: bisque;
-    position: sticky;
 }
 
 .bd-placeholder-img {
