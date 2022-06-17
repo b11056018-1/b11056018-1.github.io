@@ -59,9 +59,22 @@
     }
 }
 
+body {
+    background-image: url('/final/src/background.jpg');
+}
+
 footer {
     background-color: black;
+}
+
+.footer_font {
     color: white;
+}
+
+.top01 {
+    width: 100%;
+    background-color: bisque;
+    position: sticky;
 }
 
 
