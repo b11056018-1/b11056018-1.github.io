@@ -11,24 +11,26 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li style="--clr:#76FF03;">
-                <a href="/final/index.html" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
-            </li>
-            <li style="--clr:#18FFFF;">
-                <a href="#" data-text="&nbsp;News">&nbsp;News&nbsp;</a>
-            </li>
-            <li style="--clr:#00dc82;">
-                <a href="#" data-text="&nbsp;Team">&nbsp;Team&nbsp;</a>
-            </li>
-            <li style="--clr:#dc00d4;">
-                <a href="#" data-text="&nbsp;Contact">&nbsp;Contact&nbsp;</a>
-            </li>
-            <li style="--clr:#ff6493;">
-                <a href="#" data-text="&nbsp;About">&nbsp;About&nbsp;</a>
-            </li>
-        </ul>
+    <nav class="navbar py-4 navbar-expand-lg navbar-dark bg-dark" aria-label="Third navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand nav_font light" href="/final/index.html">玥的Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navberdown" aria-controls="navberdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navberdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav_ul">
+                    <li class="nav-item nav_li" style="--clr:#00ade1;">
+                        <a class="nav-link nav_font nav_a" data-text="&nbsp;Home" aria-current="page" href="/final/index.html">&nbsp;Home&nbsp;</a>
+                    </li>
+                    <li class="nav-item nav_li" style="--clr:#ffdd1c;">
+                        <a class="nav-link nav_font nav_a" data-text="&nbsp;News" href="/final/news/news.html">&nbsp;News&nbsp;</a>
+                    </li>
+                    <li class="nav-item nav_li" style="--clr:#ff6493;" data-text="&nbsp;About">
+                        <a class="nav-link nav_font nav_a" data-text="&nbsp;About" href="/final/about/about.html">&nbsp;About&nbsp;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
